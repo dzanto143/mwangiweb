@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BM Graphics | Home</title>
+  <link rel="icon" href="LOGO.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    };
+  </script>
+</head>
+<body class="bg-[#FBF9F6] text-blue-900 dark:bg-gray-900 dark:text-white">
+
+  <!-- 🔹 Header -->
+  <header class="bg-[#1E40AF] text-white dark:bg-gray-800 sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
+
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center space-x-2">
+        <img src="LOGO.jpg" alt="Logo" class="h-10 w-10 rounded-full object-cover">
+        <span class="text-xl font-bold">BM Graphics</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center space-x-6">
+        <!-- Dropdown -->
+        <div class="relative">
+          <button id="dropdownButton" class="hover:text-yellow-300">Services ▼</button>
+          <div id="dropdownMenu" class="hidden absolute right-0 mt-2 bg-white text-blue-900 dark:bg-gray-700 dark:text-white shadow-md rounded min-w-[200px]">
+            <a href="graphics.html" class="block px-4 py-2 hover:bg-blue-100 dark:hover:bg-gray-600">Graphics Design</a>
+            <a href="web.html" class="block px-4 py-2 hover:bg-blue-100 dark:hover:bg-gray-600">Web Development</a>
+            <a href="social.html" class="block px-4 py-2 hover:bg-blue-100 dark:hover:bg-gray-600">Social Media</a>
+          </div>
+        </div>
+        <a href="gallery.html" class="hover:text-yellow-300">Gallery</a>
+        <a href="index.html" class="hover:text-yellow-300">Home</a>
+        <a href="#contact" class="hover:text-yellow-300">Contact</a>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+<!-- Right Side: Dark Mode + Mobile Menu Button -->
+<div class="flex items-center space-x-4">
+  <!-- 🌗 Dark Mode Toggle (visible on all screens) -->
+  <button id="theme-toggle" class="text-xl hover:text-yellow-300">🌙</button>
+
+  <!-- ☰ Hamburger Menu (mobile only) -->
+  <button id="menuToggle" class="text-2xl md:hidden">☰</button>
+</div
+
+    <!-- 🔽 Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-[#1E40AF] dark:bg-gray-800 px-4 py-4 space-y-2">
+      <div class="space-y-1">
+        <button id="mobileDropdownToggle" class="w-full text-left hover:text-yellow-300">Services ▼</button>
+        <div id="mobileDropdown" class="hidden pl-4">
+          <a href="graphics.html" class="block py-1 hover:text-yellow-300">Graphics Design</a>
+          <a href="web.html" class="block py-1 hover:text-yellow-300">Web Development</a>
+          <a href="social.html" class="block py-1 hover:text-yellow-300">Social Media</a>
+        </div>
+      </div>
+      <a href="gallery.html" class="block hover:text-yellow-300">Gallery</a>
+      <a href="index.html" class="block hover:text-yellow-300">Home</a>
+      <a href="#contact" class="block hover:text-yellow-300">Contact</a>
+    </div>
+  </header>
+  <section id="gallery" class="py-16 px-4 bg-blue-50 dark:bg-gray-800">
+  <h2 class="text-3xl font-bold mb-10 text-center text-blue-900 dark:text-white">Our Portfolio</h2>
+
+  <section class="py-16 px-4 bg-blue-50 dark:bg-gray-800">
+  
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <!-- Video 1 -->
+    <div class="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover rounded">
+        <source src="sample1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover rounded">
+        <source src="sample 2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover rounded">
+        <source src="sample 3.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+  <!-- 🔹 Image Grid -->
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <img src="Comfy_Inn__LOGO-removebg-preview (1).png" alt="Project 1" class="rounded shadow hover:scale-105 transition duration-300">
+    <img src="CONGARTS.jpg" alt="Project 2" class="rounded shadow hover:scale-105 transition duration-300">
+    <img src="chicken wings.jpg" alt="Project 3" class="rounded shadow hover:scale-105 transition duration-300">
+    <img src="NOTE.jpg" alt="Project 4" class="rounded shadow hover:scale-105 transition duration-300">
+    <img src="Sat.jpg" alt="Project 5" class="rounded shadow hover:scale-105 transition duration-300">
+    <img src="NORTHRIFT.jpg" alt="Project 6" class="max-h-[550px] w-auto rounded shadow hover:scale-105 transition duration-300">
+  </div>
+</section>
+  <section class="py-16 px-4 bg-blue-50 dark:bg-gray-800">
+  
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <!-- Video 1 -->
+    <div class="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover rounded">
+        <source src="vide.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover rounded">
+        <source src="GM4.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Video 3 -->
+    <div class="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+      <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover rounded">
+        <source src="Good Morning Mobile Video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+  <main class="max-w-6xl mx-auto p-6">
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="FRI.jpg" alt="Gallery Image" class="rounded shadow">
+      <img src="eg1.jpg" alt="Gallery Image" class="rounded shadow">
+      <img src="TUESDAY 121.jpg" alt="Gallery Image" class="rounded shadow">
+    </div>
+  </main>
+  <footer class="bg-[#1E40AF] text-white dark:bg-gray-800 py-10 mt-16">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm">
+
+    <!-- About Section -->
+    <div>
+      <h3 class="font-bold mb-2">About BM Graphics</h3>
+      <p>We offer creative solutions in branding, web design, and social media to elevate your business visually and digitally.</p>
+    </div>
+    <!-- Services Section -->
+    <div>
+      <h3 class="font-bold mb-2">Services</h3>
+      <ul class="space-y-1">
+        <li><a href="graphics.html" class="hover:text-yellow-300">Graphics Design</a></li>
+        <li><a href="web.html" class="hover:text-yellow-300">Web Development</a></li>
+        <li><a href="social.html" class="hover:text-yellow-300">Social Media</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media Section -->
+    <div>
+      <h3 class="font-bold mb-2">Follow Us</h3>
+      <ul class="space-y-1">
+        <li><a href="https://www.tiktok.com/@dzanto7?_t=ZM-8ygAkI9vcN6&_r=1" class="hover:text-yellow-300">TikTok</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100066381654514" class="hover:text-yellow-300">Facebook</a></li>
+        <li><a href="https://instagram.com/bmgraphics254" class="hover:text-yellow-300">Instagram</a></li>
+        <li><a href="www.linkedin.com/in/brian-mwangi-249189234" class="hover:text-yellow-300">linkedIn</a></li>
+        <li><a href="https://x.com/MwangiDzanto?t=JJ65trDJyV9IL--JJ2aokg&s=09" class="hover:text-yellow-300">Twitter</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+      <h3 class="font-bold mb-2">Contact Us</h3>
+      <ul class="space-y-1">
+        <li>Email: <a href="mwangibri77@gmail.com" class="hover:text-yellow-300">mwangibri77@gmail.com</a></li>
+        <li>Phone: <a href="tel:+254745976691" class="hover:text-yellow-300">+254 745 976 691</a></li>
+        <li>Location: Eldoret, Kenya</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="text-center text-xs mt-6 border-t border-blue-300 pt-4">
+    &copy; 2025 BM Graphics. All Rights Reserved.
+  </div>
+</footer>
+
+  <!-- 🔹 WhatsApp Button -->
+  <a href="https://wa.me/254735217961" class="fixed bottom-4 right-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 z-50" target="_blank">
+    💬
+  </a>
+
+  <!-- 🔹 Dark Mode Script -->
+  <script>
+    // Desktop Dropdown
+    const dropdownBtn = document.getElementById("dropdownButton");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+
+    dropdownBtn.addEventListener("click", () => {
+      dropdownMenu.classList.toggle("hidden");
+    });
+
+    // Mobile Menu
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // Mobile Dropdown
+    const mobileDropdownToggle = document.getElementById("mobileDropdownToggle");
+    const mobileDropdown = document.getElementById("mobileDropdown");
+
+    mobileDropdownToggle.addEventListener("click", () => {
+      mobileDropdown.classList.toggle("hidden");
+    });
+
+    // Dark/Light Toggle
+    const toggle = document.getElementById("theme-toggle");
+    const html = document.documentElement;
+
+    if (localStorage.theme === "dark") {
+      html.classList.add("dark");
+      toggle.textContent = "☀️";
+    }
+
+    toggle.addEventListener("click", () => {
+      html.classList.toggle("dark");
+      localStorage.theme = html.classList.contains("dark") ? "dark" : "light";
+      toggle.textContent = html.classList.contains("dark") ? "☀️" : "🌙";
+    });
+  </script>
+</body>
+</html>
